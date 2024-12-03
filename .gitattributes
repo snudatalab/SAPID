@@ -2,3 +2,4 @@ data/amazon-electronics.pkl filter=lfs diff=lfs merge=lfs -text
 data/amazon-home.pkl filter=lfs diff=lfs merge=lfs -text
 data/gowalla.pkl filter=lfs diff=lfs merge=lfs -text
 data/ml-1m.pkl filter=lfs diff=lfs merge=lfs -text
+data/*.pkl filter=lfs diff=lfs merge=lfs -text
