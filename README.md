@@ -1,6 +1,6 @@
 # SAPID
 
-This project is a PyTorch implementation of SAPID: Sequentially Diversified and Accurate Recommendations in Chronological Order for a Series of Users.
+This project is a PyTorch implementation of SAPID: Sequentially Diversified and Accurate Recommendations in Chronological Order for a Series of Users (WSDM 2025).
 
 
 ## Prerequisites
@@ -53,3 +53,15 @@ The role of each argument is as follows:
 * `--candn`: choose a size $c$ of an initial candidate pool
 * `--path`: choose a path of pre-trained model (optional) 
 * `--k`: choose the length of a recommendation list (default: 10)
+
+## Reference
+Please cite the following paper if you use this code.
+~~~
+@inproceedings{SAPID,
+  author    = {Jongjin Kim and
+               U Kang},
+  title     = {Sequentially Diversified and Accurate Recommendations in Chronological Order for a Series of Users},
+  booktitle = {The 18th ACM International Conference on Web Search and Data Mining (WSDM)},
+  year      = {2025}
+}
+~~~
